@@ -1,2 +1,7 @@
 # YuJen-LeetJourney
-🏃 Go and Python solutions documenting my LeetCode journey and problem-solving process
+
+
+## By Topic
+
+### 陣列 (Arrays)
+- [1. Two Sum](./Easy/1_Two_Sum/) - Easy
