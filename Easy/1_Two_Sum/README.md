@@ -1,4 +1,4 @@
-#　[Two Sum](https://leetcode.com/problems/two-sum/description/) 
+# [Two Sum](https://leetcode.com/problems/two-sum/)
 
 ## Solution 1: Brute Force with Nested Loops
 - **Time Complexity**: O(n²)
