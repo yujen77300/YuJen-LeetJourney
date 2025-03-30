@@ -12,7 +12,7 @@ Press `Control` + `F` (or `Command` + `F` on the Mac) to search anything you wan
 | 0011 | [Container With Most Water](./Medium/11_Container_With_Most_Water/)                   | `Array`, `Two Pointers`, `Greedy`                  |   | Medium       |
 | 0015 | [Three Sum](./Medium/15_3Sum/)                                                         | `Array`, `Two Pointers`, `Sorting`                   |  Go  | Medium       |
 | 0020 | [Valid Parentheses](./Easy/20_Valid_Parentheses/)                                                         | `Stack`, `String`                          |  Go  | Easy       |
-| 0033 | [Search in Rotated Sorted Array](./Medium/33_Search_in_Rotated_Sorted_Array/)                     | `Array`, `Binary Search`                          |    | Medium       |
+| 0033 | [Search in Rotated Sorted Array](./Medium/33_Search_in_Rotated_Sorted_Array/)                     | `Array`, `Binary Search`                          | Go  | Medium       |
 | 0049 | [Group Anagrams](./Medium/49_Group_Anagrams/)                          | `Array`, `Hash Table`, `Sorting` , `String`                        |  Go  | Medium       |
 | 0053 | [Maximum Subarray](./Medium/53_Maximum_Subarray/)                          | `Array`, `Divide and Conquer`,`Dynamic Programming`                          |  Go  | Medium       |
 | 0056 | [Merge Intervals](./Medium/56_Merge_Intervals/)                          | `Array`, `Sorting`                          |  Go  | Medium       |
