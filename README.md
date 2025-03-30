@@ -23,4 +23,4 @@ Press `Control` + `F` (or `Command` + `F` on the Mac) to search anything you wan
 | 0217 | [Contains Duplicate](./Easy/217_Contains_Duplicate/)                                  | `Array`, `Hash Table` `Sorting`                         |  Go, Python | Easy       |
 | 0238 | [Product of Array Except Self](./Medium/238_Product_of_Array_Except_Self/)                       | `Array`, `Prefix Sum`                     |  Go  | Medium       |
 | 0242 | [Valid Anagram](./Easy/242_Valid_Anagram/)                                          | `String`, `Hash Table`, `Sorting`                        |  Go, Python | Easy       |
-11. Container With Most Water
+| 0704 | [704. Binary Search](./Easy/704_Binary_Search/)                  | `Array`, `Binary Search`          |  Go, Python | Easy       |
