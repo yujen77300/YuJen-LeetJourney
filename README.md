@@ -18,7 +18,7 @@ Press `Control` + `F` (or `Command` + `F` on the Mac) to search anything you wan
 | 0056 | [Merge Intervals](./Medium/56_Merge_Intervals/)                          | `Array`, `Sorting`                          |  Go  | Medium       |
 | 0121 | [Best Time To Buy And Sell Stock](./Easy/121_Best_Time_To_Buy_And_Sell_Stock/)              | `Array`, `Dynamic Programming`                         |  Go, Python | Easy       |
 | 0141 | [Linked List Cycle](./Easy/Linked_List_Cycle/)                                  | `Linked List`, `Hash Table`  , `Two Pointers`                  |    | Easy       |
-| 0152 | [Maximum Product Subarray](./Medium/152_Maximum_Product_Subarray/)                                  | `Array`, `Dynamic Programming`           |    | Medium       |
+| 0152 | [Maximum Product Subarray](./Medium/152_Maximum_Product_Subarray/)                                  | `Array`, `Dynamic Programming`           |  Go, Python   | Medium       |
 | 0206 | [Reverse Linked List](./Easy/Reverse_Linked_List/)                                  | `Linked List`, `Recursion`                        |    | Easy       |
 | 0217 | [Contains Duplicate](./Easy/217_Contains_Duplicate/)                                  | `Array`, `Hash Table` `Sorting`                         |  Go, Python | Easy       |
 | 0238 | [Product of Array Except Self](./Medium/238_Product_of_Array_Except_Self/)                       | `Array`, `Prefix Sum`                     |  Go  | Medium       |
