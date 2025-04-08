@@ -9,7 +9,7 @@ Press `Control` + `F` (or `Command` + `F` on the Mac) to search anything you wan
 | #    | Solution                                                                                         | Tags                                      |  Languages | Difficulty |
 | ---- | ------------------------------------------------------------------------------------------------ | ----------------------------------------- | ---------- | ---------- |
 | 0001 | [Two Sum](./Easy/1_Two_Sum/)                                             | `Array`, `Hash Table`                         |  Go, Python | Easy       |
-| 0003 | [Longest Substring Without Repeating Characters](./Medium/3_Longest_Substring_Without_Repeating_Characters/)                     |           |    | Medium       |
+| 0003 | [Longest Substring Without Repeating Characters](./Medium/3_Longest_Substring_Without_Repeating_Characters/)   | `String`, `Hash Table`, `Sliding Windows`| Go   | Medium       |
 | 0011 | [Container With Most Water](./Medium/11_Container_With_Most_Water/)                   | `Array`, `Two Pointers`, `Greedy`                  | Go  | Medium       |
 | 0015 | [Three Sum](./Medium/15_3Sum/)                                                         | `Array`, `Two Pointers`, `Sorting`                   |  Go  | Medium       |
 | 0019 | [Remove Nth Node From End of List](./Medium/19_Remove_Nth_Node_From_End_of_List/)                     |           |    | Medium       |
