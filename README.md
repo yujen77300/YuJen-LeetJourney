@@ -12,7 +12,7 @@ Press `Control` + `F` (or `Command` + `F` on the Mac) to search anything you wan
 | 0003 | [Longest Substring Without Repeating Characters](./Medium/3_Longest_Substring_Without_Repeating_Characters/)   | `String`, `Hash Table`, `Sliding Windows`| Go   | Medium       |
 | 0011 | [Container With Most Water](./Medium/11_Container_With_Most_Water/)                   | `Array`, `Two Pointers`, `Greedy`                  | Go  | Medium       |
 | 0015 | [Three Sum](./Medium/15_3Sum/)                                                         | `Array`, `Two Pointers`, `Sorting`                   |  Go  | Medium       |
-| 0019 | [Remove Nth Node From End of List](./Medium/19_Remove_Nth_Node_From_End_of_List/)                     |           |    | Medium       |
+| 0019 | [Remove Nth Node From End of List](./Medium/19_Remove_Nth_Node_From_End_of_List/)       |  `Linked List`, `Two Pointers`   | Go   | Medium       |
 | 0020 | [Valid Parentheses](./Easy/20_Valid_Parentheses/)                                                         | `Stack`, `String`                          |  Go  | Easy       |
 | 0033 | [Search in Rotated Sorted Array](./Medium/33_Search_in_Rotated_Sorted_Array/)                     | `Array`, `Binary Search`                          | Go  | Medium       |
 | 0049 | [Group Anagrams](./Medium/49_Group_Anagrams/)                          | `Array`, `Hash Table`, `Sorting` , `String`                        |  Go  | Medium       |
