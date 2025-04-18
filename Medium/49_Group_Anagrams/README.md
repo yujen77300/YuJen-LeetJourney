@@ -16,6 +16,7 @@ func groupAnagrams(strs []string) [][]string {
 	anagramMap := make(map[string][]string)
 
 	for _, str := range strs {
+		// string is immutable
 		chars := strings.Split(str, "")
 		sort.Strings(chars)
 		sortedStr := strings.Join(chars, "")
