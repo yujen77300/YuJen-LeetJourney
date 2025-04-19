@@ -39,6 +39,6 @@ Press `Control` + `F` (or `Command` + `F` on the Mac) to search anything you wan
 | 0347 | [Top K Frequent Elements](./Medium/347_Top_K_Frequent_Elements/)  |  `Array`,`Hash Table`,`Divide and Conquer`,`Bucket Sort`,`Counting`,`Quickselect`,`Sorting`,`Heap (Priority Queue)`      | Go    | Medium       |
 | 0417 | [Pacific Atlantic Water Flow](./Medium/417_Pacific_Atlantic_Water_Flow/)         |  `Array`, `Depth-First Search`, `Breadth-First Search`, `Matrix`      |    | Medium       |
 | 0424 | [Longest Repeating Character Replacement](./Medium/424_Longest_Repeating_Character_Replacement/)     |    `String`, `Hash Table`, `Sliding Windows`     | Go   | Medium       |
-| 0435 | [Non-overlapping Intervals](./Medium/435_Non-overlapping_Intervals/)     |     `Greedy`,`Array`,`Dynamic Programming`,`Sorting`      |    | Medium       |
+| 0435 | [Non-overlapping Intervals](./Medium/435_Non-overlapping_Intervals/)     |     `Greedy`,`Array`,`Dynamic Programming`,`Sorting`      | Go   | Medium       |
 | 0647 | [Palindromic Substrings](./Medium/647_Palindromic_Substrings/)                     |    `Two Pointers`, `String`,  `Dynamic Programming`       |    | Medium       |
 | 0704 | [Binary Search](./Easy/704_Binary_Search/)                  | `Array`, `Binary Search`          |  Go, Python | Easy       |
