@@ -21,7 +21,7 @@ Press `Control` + `F` (or `Command` + `F` on the Mac) to search anything you wan
 | 0056 | [Merge Intervals](./Medium/56_Merge_Intervals/)                          | `Array`, `Sorting`                          |  Go  | Medium       |
 | 0076 | [Minimum Window Substring](./Hard/76_Minimum_Window_Substring/)                     |    `Hash Table`,`String`,`Sliding Window`       |    | Hard       |
 | 0098 | [Validate Binary Search Tree](./Medium/98_Validate_Binary_Search_Tree/)     |  `Tree`,`Depth-First Search`,`Binary Search Tree`,`Binary Tree`         | Go   | Medium       |
-| 0105 | [Construct Binary Tree from Preorder and Inorder Traversal](./Medium/105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal/)     | `Tree`,`Array`,`Hash Table`,`Divide and Conquer`,`Binary Tree`         |    | Medium       |
+| 0105 | [Construct Binary Tree from Preorder and Inorder Traversal](./Medium/105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal/)     | `Tree`,`Array`,`Hash Table`,`Divide and Conquer`,`Binary Tree`         |  Go  | Medium       |
 | 0121 | [Best Time To Buy And Sell Stock](./Easy/121_Best_Time_To_Buy_And_Sell_Stock/)              | `Array`, `Dynamic Programming`                         |  Go, Python | Easy       |
 | 0124 | [Binary Tree Maximum Path Sum](./Hard/124_Binary_Tree_Maximum_Path_Sum/)  | `Tree`,`Depth-First Search`,`Dynamic Programming`,`Binary Tree`               |   | Hard       |
 | 0133 | [Clone Graph](./Medium/133_Clone_Graph/)              |  `Depth-First Search`,`Breadth-First Search`,`Graph`,`Hash Table`                     |   | Medium       |
