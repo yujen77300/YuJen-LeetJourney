@@ -1,14 +1,15 @@
-# [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)
+# [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)
 
 ## Solution 1: Hash Set
-- **Time Complexity**: O(n) - where n is the number of nodes in the linked list
-- **Space Complexity**: O(1) - only using two pointer variables (slow and fast)
+- **Time Complexity**: O(n) - where n is the number of nodes in the linked list, as we need to visit each node at most once
+- **Space Complexity**: O(n) - in the worst case, we store all nodes in the hash set if there's no cycle
 - **Approach**:
-  1. Initialize two pointers, slow and fast, both pointing to the head
-  2. Move slow pointer one step at a time and fast pointer two steps at a time
-  3. If there is a cycle, the fast pointer will eventually catch up to the slow pointer
-  4. If there is no cycle, the fast pointer will reach the end of the list
-  5. Return true if the pointers meet, false otherwise
+  1. Use a hash set to keep track of visited nodes
+  2. Traverse the linked list, for each node:
+     - Check if the current node has been visited before
+     - If yes, a cycle exists, return true
+     - If not, mark the node as visited and move to the next node
+  3. If we reach the end of the list (null), return false as no cycle exists
 
 
 ```go
@@ -31,15 +32,13 @@ func hasCycle(head *ListNode) bool {
 
 ## Solution 2: Floyd Cycle Detection Algorithm
 - **Time Complexity**: O(n) - where n is the number of nodes in the linked list
-- **Space Complexity**: O(1) - only using a constant amount of extra space (three variables: pre, cur, and temp)
+- **Space Complexity**: O(1) - only using two pointer variables (slow and fast)
 - **Approach**:
-  1. Initialize two pointers: `pre` pointing to `nil` and `cur` pointing to the head
-  2. While `cur` is not `nil`:
-     - Store the next node temporarily in `temp`
-     - Reverse the current node's pointer to point to the previous node
-     - Move the previous pointer to the current node
-     - Move the current pointer to the temporary next node
-  3. Return the new head (the `pre` pointer)
+  1. Initialize two pointers, slow and fast, both pointing to the head
+  2. Move slow pointer one step at a time and fast pointer two steps at a time
+  3. If there is a cycle, the fast pointer will eventually catch up to the slow pointer
+  4. If there is no cycle, the fast pointer will reach the end of the list
+  5. Return true if the pointers meet, false otherwise
 
 
 ```go

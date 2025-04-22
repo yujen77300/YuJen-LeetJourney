@@ -26,7 +26,7 @@ Press `Control` + `F` (or `Command` + `F` on the Mac) to search anything you wan
 | 0121 | [Best Time To Buy And Sell Stock](./Easy/121_Best_Time_To_Buy_And_Sell_Stock/)              | `Array`, `Dynamic Programming`                         |  Go, Python | Easy       |
 | 0124 | [Binary Tree Maximum Path Sum](./Hard/124_Binary_Tree_Maximum_Path_Sum/)  | `Tree`,`Depth-First Search`,`Dynamic Programming`,`Binary Tree`               |   | Hard       |
 | 0133 | [Clone Graph](./Medium/133_Clone_Graph/)              |  `Depth-First Search`,`Breadth-First Search`,`Graph`,`Hash Table`                     |   | Medium       |
-| 0141 | [Linked List Cycle](./Easy/Linked_List_Cycle/)                                  | `Linked List`, `Hash Table`  , `Two Pointers`                  | Go  | Easy       |
+| 0141 | [Linked List Cycle](./Easy/Linked_List_Cycle/)                                  | `Linked List`, `Hash Table`  , `Two Pointers`                  | Go, Python  | Easy       |
 | 0152 | [Maximum Product Subarray](./Medium/152_Maximum_Product_Subarray/)                                  | `Array`, `Dynamic Programming`           |  Go, Python   | Medium       |
 | 0153 | [Maximum Product Subarray](./Medium/153_Find_Minimum_in_Rotated_Sorted_Array/)                 |   `Array`, `Binary Tree`     | Go   | Medium       |
 | 0200 | [Number of Islands](./Medium/200_Number_of_Islands/)             | `Array`,`Matrix`, `Depth-First Search`,`Breadth-First Search`,`Union Find`        | Go   | Medium       |
