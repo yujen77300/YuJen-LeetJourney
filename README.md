@@ -22,11 +22,14 @@ Press `Control` + `F` (or `Command` + `F` on the Mac) to search anything you wan
 | 0076 | [Minimum Window Substring](./Hard/76_Minimum_Window_Substring/)                     |    `Hash Table`,`String`,`Sliding Window`       |    | Hard       |
 | 0098 | [Validate Binary Search Tree](./Medium/98_Validate_Binary_Search_Tree/)     |  `Tree`,`Depth-First Search`,`Binary Search Tree`,`Binary Tree`         | Go   | Medium       |
 | 0102 | [Binary Tree Level Order Traversal](./Medium/102_Binary_Tree_Level_Order_Traversal/)   | `Tree`,`Breadth-First Search`,`Binary Tree`         |  Go  | Medium       |
+| 0100 | [Same Tree](./Easy/100_Same_Tree/)   | `Tree`,`Breadth-First Search`,`Binary Tree` , `Depth-First Search`        |    | Easy       |
+| 0104 | [Maximum Depth of Binary Tree](./Easy/Maximum_Depth_of_Binary_Tree/)   | `Tree`,`Breadth-First Search`,`Binary Tree` , `Depth-First Search`          |    | Easy      |
 | 0105 | [Construct Binary Tree from Preorder and Inorder Traversal](./Medium/105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal/)     | `Tree`,`Array`,`Hash Table`,`Divide and Conquer`,`Binary Tree`         |  Go  | Medium       |
 | 0121 | [Best Time To Buy And Sell Stock](./Easy/121_Best_Time_To_Buy_And_Sell_Stock/)              | `Array`, `Dynamic Programming`                         |  Go, Python | Easy       |
 | 0124 | [Binary Tree Maximum Path Sum](./Hard/124_Binary_Tree_Maximum_Path_Sum/)  | `Tree`,`Depth-First Search`,`Dynamic Programming`,`Binary Tree`               |   | Hard       |
+| 0128 | [Longest Consecutive Sequence](./Medium/128_Longest_Consecutive_Sequence/)  | `Array`,`Hash Table`,`Union Find`               |   | Medium       |
 | 0133 | [Clone Graph](./Medium/133_Clone_Graph/)              |  `Depth-First Search`,`Breadth-First Search`,`Graph`,`Hash Table`                     |   | Medium       |
-| 0141 | [Linked List Cycle](./Easy/Linked_List_Cycle/)                                  | `Linked List`, `Hash Table`  , `Two Pointers`                  | Go, Python  | Easy       |
+| 0141 | [Linked List Cycle](./Easy/141_Linked_List_Cycle/)                                  | `Linked List`, `Hash Table`  , `Two Pointers`                  | Go, Python  | Easy       |
 | 0152 | [Maximum Product Subarray](./Medium/152_Maximum_Product_Subarray/)                                  | `Array`, `Dynamic Programming`           |  Go, Python   | Medium       |
 | 0153 | [Maximum Product Subarray](./Medium/153_Find_Minimum_in_Rotated_Sorted_Array/)                 |   `Array`, `Binary Tree`     | Go   | Medium       |
 | 0200 | [Number of Islands](./Medium/200_Number_of_Islands/)             | `Array`,`Matrix`, `Depth-First Search`,`Breadth-First Search`,`Union Find`        | Go   | Medium       |
