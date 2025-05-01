@@ -27,7 +27,8 @@ Press `Control` + `F` (or `Command` + `F` on the Mac) to search anything you wan
 | 0105 | [Construct Binary Tree from Preorder and Inorder Traversal](./Medium/105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal/)     | `Tree`,`Array`,`Hash Table`,`Divide and Conquer`,`Binary Tree`         |  Go  | Medium       |
 | 0121 | [Best Time To Buy And Sell Stock](./Easy/121_Best_Time_To_Buy_And_Sell_Stock/)              | `Array`, `Dynamic Programming`                         |  Go, Python | Easy       |
 | 0124 | [Binary Tree Maximum Path Sum](./Hard/124_Binary_Tree_Maximum_Path_Sum/)  | `Tree`,`Depth-First Search`,`Dynamic Programming`,`Binary Tree`               |   | Hard       |
-| 0128 | [Longest Consecutive Sequence](./Medium/128_Longest_Consecutive_Sequence/)  | `Array`,`Hash Table`,`Union Find`               |   | Medium       |
+| 0125 | [Valid Palindrome](./Easy/125_Valid_Palindrome/)  | `Two pointers`,`Dynamic Programming`,`String`               | Go  | Easy       |
+| 0128 | [Longest Consecutive Sequence](./Medium/128_Longest_Consecutive_Sequence/)  | `Array`,`Hash Table`,`Union Find`               | Go  | Medium       |
 | 0133 | [Clone Graph](./Medium/133_Clone_Graph/)              |  `Depth-First Search`,`Breadth-First Search`,`Graph`,`Hash Table`                     |   | Medium       |
 | 0141 | [Linked List Cycle](./Easy/141_Linked_List_Cycle/)                                  | `Linked List`, `Hash Table`  , `Two Pointers`                  | Go, Python  | Easy       |
 | 0152 | [Maximum Product Subarray](./Medium/152_Maximum_Product_Subarray/)                                  | `Array`, `Dynamic Programming`           |  Go, Python   | Medium       |
