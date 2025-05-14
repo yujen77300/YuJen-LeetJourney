@@ -22,7 +22,7 @@ func hammingWeight(n int) int {
 
 
 
-## Solution 2: Expand Around Center
+## Solution 2: Bit Manipulation
 - **Time Complexity**: O(log n) - where log n represents the number of bits in the number
 - **Space Complexity**: O(1) - constant extra space
 - **Approach**:
