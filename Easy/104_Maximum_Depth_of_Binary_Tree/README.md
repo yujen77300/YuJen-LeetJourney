@@ -13,7 +13,6 @@
   4. Return the maximum of the two depths
   5. The final result represents the maximum depth of the tree
 
-check every single substring
 
 ```go
 func maxDepth(root *TreeNode) int {

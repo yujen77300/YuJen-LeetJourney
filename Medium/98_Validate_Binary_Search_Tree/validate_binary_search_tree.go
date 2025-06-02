@@ -7,25 +7,25 @@ type TreeNode struct {
 }
 
 func isValidBST(root *TreeNode) bool {
-	nums := []int{}
-	inOrderTraversal(root, &nums)
-
-	for i := 1; i < len(nums); i++ {
-		if nums[i] <= nums[i-1] {
-			return false
-		}
-	}
-
-	return true
-
+    var prev *TreeNode
+    return validate(root, &prev)
 }
 
-func inOrderTraversal(node *TreeNode, nums *[]int) {
-	if node.Left != nil {
-		inOrderTraversal(node.Left, nums)
-	}
-	*nums = append(*nums, node.Val)
-	if node.Right != nil {
-		inOrderTraversal(node.Right, nums)
-	}
+func validate(node *TreeNode, prev **TreeNode) bool {
+    if node == nil {
+        return true
+    }
+
+    if !validate(node.Left, prev) {
+        return false
+    }
+
+    if *prev != nil && node.Val <= (*prev).Val {
+        return false
+    }
+
+    *prev = node
+
+    return validate(node.Right, prev)
 }
+

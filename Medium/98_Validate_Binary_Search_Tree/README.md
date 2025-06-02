@@ -49,3 +49,46 @@ func inOrderTraversal(node *TreeNode, nums *[]int) {
 }
 
 ```
+
+
+## Solution 2: Optimized Inorder Traversal with Previous Pointer
+- **Time Complexity**: O(n) - where n is the number of nodes in the tree
+  - Each node is visited exactly once during the traversal
+- **Space Complexity**: O(h) - where h is the height of the tree
+  - Only needs recursion call stack space (h), which is O(log n) for balanced trees and O(n) for worst case
+  - No additional array is needed to store all values
+- **Approach**:
+  1. Perform an inorder traversal of the BST (left-root-right)
+  2. Instead of storing all values in an array, maintain a "previous node" pointer
+  3. During traversal, compare each node's value with the previous node's value
+  4. In a valid BST, each node must have a value greater than the previous node
+  5. If any node's value is less than or equal to its previous node, the tree is not a valid BST
+- **Key Insights**:
+  - Using a previous pointer eliminates the need for O(n) extra space to store all values
+  - The solution avoids the two-pass approach (traversal + array check) of Solution 1
+  - Use double pointer **TreeNode to track the previous node across recursive calls
+
+```go
+func isValidBST(root *TreeNode) bool {
+    var prev *TreeNode
+    return validate(root, &prev)
+}
+
+func validate(node *TreeNode, prev **TreeNode) bool {
+    if node == nil {
+        return true
+    }
+
+    if !validate(node.Left, prev) {
+        return false
+    }
+
+    if *prev != nil && node.Val <= (*prev).Val {
+        return false
+    }
+
+    *prev = node
+
+    return validate(node.Right, prev)
+}
+```
