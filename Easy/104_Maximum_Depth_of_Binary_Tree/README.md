@@ -26,3 +26,22 @@ func helper(root *TreeNode, depth int) int {
 	return max(helper(root.Left, depth+1), helper(root.Right, depth+1))
 }
 ```
+
+Without helper function
+```go
+func maxDepth(root *TreeNode) int {
+	if root == nil {
+		return 0
+	}
+
+	return max(maxDepth(root.Left), maxDepth(root.Right)) + 1
+}
+```
+
+```python
+class Solution:
+    def maxDepth(self, root: Optional[TreeNode]) -> int:
+        if root is None :
+            return 0
+        return max(self.maxDepth(root.left), self.maxDepth(root.right)) + 1
+````

@@ -7,12 +7,9 @@ type TreeNode struct {
 }
 
 func maxDepth(root *TreeNode) int {
-	return helper(root, 0)
-}
-
-func helper(root *TreeNode, depth int) int {
 	if root == nil {
-		return depth
+		return 0
 	}
-	return max(helper(root.Left, depth+1), helper(root.Right, depth+1))
+
+	return max(maxDepth(root.Left), maxDepth(root.Right)) + 1
 }
