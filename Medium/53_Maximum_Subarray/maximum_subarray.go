@@ -1,17 +1,14 @@
 package maximumsubarray
 
-import "math"
-
 func maxSubArray(nums []int) int {
-	largestSum := nums[0]
-	currentSum := 0
 
-	for _, n := range nums {
-		if currentSum < 0 {
-			currentSum = 0
-		}
-		currentSum += n
-		largestSum = int(math.Max(float64(currentSum), float64(largestSum)))
+	currSum := nums[0]
+	maxSoFar := nums[0]
+
+	for i := 1; i < len(nums); i++ {
+		currSum = max(nums[i], currSum+nums[i])
+		maxSoFar = max(currSum, maxSoFar)
 	}
-	return largestSum
+
+	return maxSoFar
 }
