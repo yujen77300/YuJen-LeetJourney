@@ -1,30 +1,26 @@
-package mergeintervals
+package insertinterval
 
-import "sort"
+func insert(intervals [][]int, newInterval []int) [][]int {
+	result := [][]int{}
+	i := 0
+	n := len(intervals)
 
-func merge(intervals [][]int) [][]int {
-    if len(intervals) <= 1 {
-        return intervals
-    }
+	for i < n && intervals[i][1] < newInterval[0] {
+		result = append(result, intervals[i])
+		i++
+	}
 
-    sort.Slice(intervals, func(i, j int) bool {
-        return intervals[i][0] < intervals[j][0]
-    })
+	for i < n && intervals[i][0] <= newInterval[1] {
+		newInterval[0] = min(newInterval[0], intervals[i][0])
+		newInterval[1] = max(newInterval[1], intervals[i][1])
+		i++
+	}
+	result = append(result, newInterval)
 
-    result := [][]int{}
-    current := intervals[0]
-    for i := 1; i < len(intervals); i++ {
-        if current[1] >= intervals[i][0] {
-            if intervals[i][1] > current[1] {
-                current[1] = intervals[i][1]
-            }
-        } else {
-            result = append(result, current)
-            current = intervals[i]
-        }
-    }
+	for i < n {
+		result = append(result, intervals[i])
+		i++
+	}
 
-    result = append(result, current)
-
-    return result
+	return result
 }
